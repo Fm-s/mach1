@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0 30px 0;
+}
+
+.formGroup {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formControl {
+    position: relative;
+    min-width: calc(50% - 60px);
+}
+
+.formControl label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formControl span {
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formControl p::before {
+    content: "* ";
+}
+
+.formControl p {
+    position: absolute;
+    top: 68px;
+    width: 300px;
+    margin: 0;
+    font-size: 12px;
+    color: red;
+}
+
+.formControl input {
+    height: 28px;
+    width: 300px;
+    padding-left: 6px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.formControl input.invalid {
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+}
+
+.formControl input.valid {
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+}
+
+.aButton {
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    padding: 8px 12px 8px 12px;
+    font-size: 14px;
+  }
+  
+  .aButton:hover {
+    background-color: #44A3D2;
+    cursor: pointer;
+  }

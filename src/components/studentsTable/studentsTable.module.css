@@ -1,0 +1,39 @@
+.studentTable {
+    margin: 10px 0 15px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-spacing: 0px;
+    border-color: black;
+}
+
+.studentTable thead {
+    background-color: #44A3D2;
+    color: aliceblue;
+}
+
+.studentTable thead td {
+    padding: 8px 0px 8px 0px;
+    border: 2px solid black;
+}
+
+.studentTable tbody td {
+    border: 1px solid black;
+    padding: 4px 0px 4px 0px;
+    
+}
+
+.studentTable tbody tr:nth-of-type(even){
+    background-color: lightcyan;
+}
+
+.studentTable tbody tr:nth-of-type(odd){
+    background-color: aliceblue;
+}
+
+.noData {
+    width: 100%;
+    text-align: center;
+}

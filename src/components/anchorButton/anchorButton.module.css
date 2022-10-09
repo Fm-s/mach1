@@ -1,0 +1,16 @@
+.aButton {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: darkblue;
+    color: white;
+    padding: 8px 12px 8px 12px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+  }
+  
+  .aButton:hover {
+    background-color: #44A3D2;
+    cursor: pointer;
+  }
